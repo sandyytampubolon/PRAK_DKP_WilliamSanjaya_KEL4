@@ -3,5 +3,18 @@
 using namespace std;
 int main()
 {
-  
+   int pilihan;
+   cout << " DAFTAR BELANJA MINIMARKET BERKAH ";
+   cout << " Customer : Kelompok 4 ";
+   cout << "\n 1=> Sabun Cuci Rp 5.000 \n 2=> Teh Kotak Rp 15.000 \n 3=> Es Krim Rp 25.000 \n 4=> Ayam Potong Rp 35.000";
+   cout << "\n Total Pembayaran = "<< return_func(5000,15000,25000,35000);
+   cout << " METODE PEMBAYARAN \n";
+   cout << " Silahkan Pilih : \n";
+   cout << " 1. Tunai \n 2. Transfer \n 3. Gopay \n 4. Ovo \n";
+   cout << " Pilihan anda : ";
+   cin >> pilihan;
+   while ( pilihan <= 0 || pilihan >= 5){
+    cout << " metode tersebut tidak tersedia saat ini \n";
+    cout << " Silahkan coba kembali ";
+    cin >> pilihan;
 }
