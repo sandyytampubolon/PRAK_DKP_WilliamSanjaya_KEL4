@@ -1,6 +1,4 @@
 ﻿# PRAK_DKP_WilliamSanjaya_KEL4
-#include <iostream>
-using namespace std;
 int main()
 {
    int pilihan;
@@ -17,4 +15,3 @@ int main()
     cout << " metode tersebut tidak tersedia saat ini \n";
     cout << " Silahkan coba kembali ";
     cin >> pilihan;
-}
