@@ -1,5 +1,23 @@
 ﻿# PRAK_DKP_WilliamSanjaya_KEL4
-int main()
+ class myClass{
+
+public :
+
+    void non_return_method(string kata){
+
+    cout << "\n ======================== ";
+
+    cout << "\n Pembayaran Berhasil ";
+
+    cout << "\n Terima kasih telah berbelanja di Minimarket Berkah " << kata;
+
+    }
+
+};
+
+
+int main() 
+
 {
    int pilihan;
    cout << " DAFTAR BELANJA MINIMARKET BERKAH ";
