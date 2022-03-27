@@ -15,3 +15,10 @@ int main()
     cout << " metode tersebut tidak tersedia saat ini \n";
     cout << " Silahkan coba kembali ";
     cin >> pilihan;
+    #include <iostream>
+#include <conio.h>
+using namespace std;
+
+int return_func(int a,int b,int c,int d){
+    return a + b + c + d;
+}
