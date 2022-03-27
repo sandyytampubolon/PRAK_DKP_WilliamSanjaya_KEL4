@@ -7,7 +7,14 @@ using namespace std;
 int return_func(int a,int b,int c,int d){
     return a + b + c + d;
 }
-
+class myClass{
+public :
+    void non_return_method(string kata){
+    cout << "\n ======================== ";
+    cout << "\n Pembayaran Berhasil ";
+    cout << "\n Terima kasih telah berbelanja di Minimarket Berkah " << kata;
+    }
+};
  
 int main()
 {
